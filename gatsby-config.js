@@ -6,4 +6,21 @@
 
 module.exports = {
   /* Your site config here */
+
+  siteMetadata:{
+    title:"Gatsby PWA demo"
+  },
+  plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `src`,
+        path: `${__dirname}/src/`,
+      },
+    },
+    {
+      resolve:`gatsby-transformer-remark`
+    }
+
+  ]
 }

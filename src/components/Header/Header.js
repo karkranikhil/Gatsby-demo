@@ -9,13 +9,13 @@ export default props => (
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
           <Nav.Link as={Link} to="/">
-            <span class="text-dark">Home</span>
+            <span className="text-dark">Home</span>
           </Nav.Link>
           <Nav.Link as={Link} to="/about">
-          <span class="text-dark">About Us</span>
+          <span className="text-dark">About Us</span>
           </Nav.Link>
           <Nav.Link as={Link} to="/contact">
-          <span class="text-dark">Contact Us</span>
+          <span className="text-dark">Contact Us</span>
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>
